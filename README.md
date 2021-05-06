@@ -1,3 +1,1 @@
-# Rocket Academy Coding Bootcamp
-
-## AJAX Cards
+# Rocket Academy Coding Bootcamp: AJAX Cards
