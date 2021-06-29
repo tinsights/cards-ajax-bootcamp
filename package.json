@@ -1,22 +1,22 @@
 {
-  "name": "cards-ajax-swe1",
+  "name": "cards-ajax-bootcamp",
   "version": "1.0.0",
   "description": "",
-  "main": ".eslintrc.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rocketacademy/cards-ajax-swe1.git"
+    "url": "git+https://github.com/rocketacademy/cards-ajax-bootcamp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rocketacademy/cards-ajax-swe1/issues"
+    "url": "https://github.com/rocketacademy/cards-ajax-bootcamp/issues"
   },
-  "homepage": "https://github.com/rocketacademy/cards-ajax-swe1#readme",
+  "homepage": "https://github.com/rocketacademy/cards-ajax-bootcamp#readme",
   "devDependencies": {
     "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.1",
