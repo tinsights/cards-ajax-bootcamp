@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+  background-color: cornflowerblue;
+}
+
+/* contains login elements and gameplay buttons */
+.top-container {
+  height: 150px;
+}
+
+.login-div {
+  padding: 10px;
+  border: red solid 2px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dashboard {
+  padding: 10px;
+  border: red solid 2px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.start-btn-div {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-details {
+  display: flex;
+  width: 80%;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.main-gameplay {
+  height: 500px;
+}
+
+.scorecard {
+  height: 100px;
+  text-align: center;
+}
+
+.cards-container {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+}
