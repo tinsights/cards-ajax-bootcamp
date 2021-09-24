@@ -10,4 +10,5 @@ export default function bindRoutes(app) {
   app.post('/games', GamesController.create);
   // update a game with new cards
   app.put('/games/:id/deal', GamesController.deal);
+  app.use((req, res) => res.send('404'));
 }
