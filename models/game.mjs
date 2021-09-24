@@ -8,6 +8,7 @@ export default function gameModel(sequelize, DataTypes) {
     },
     gameState: {
       type: DataTypes.JSON,
+      allowNull: false,
     },
     createdAt: {
       allowNull: false,

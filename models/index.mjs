@@ -14,7 +14,11 @@ const sequelize = new Sequelize(config.database, config.username, config.passwor
 // add your model definitions to db here
 db.Game = gameModel(sequelize, Sequelize.DataTypes);
 
-db.sequelize = sequelize;
-db.Sequelize = Sequelize;
+sequelize.sync()
+  .then(() => {
+    db.sequelize = sequelize;
+    db.Sequelize = Sequelize;
+  })
+  .catch((err) => console.log(err));
 
 export default db;

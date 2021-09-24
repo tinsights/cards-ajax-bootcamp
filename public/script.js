@@ -45,7 +45,6 @@ const createGame = function () {
     .then((response) => {
       // set the global value to the new game.
       currentGame = response.data;
-
       console.log(currentGame);
 
       // display it out to the user
